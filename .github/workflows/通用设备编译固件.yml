@@ -20,6 +20,7 @@ on:
           - immortalwrt-master
           - Lienol-master
           - openwrt-bpir4
+          - openwrt-bpir3mini
       
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
